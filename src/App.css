@@ -1,22 +1,25 @@
 .App {
-  text-align: center;
+    padding-top: 4rem;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #fafafa;
 }
 
-.App-logo {
-  height: 40vmin;
+.badge {
+    text-transform: uppercase;
+    color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+    background: #ef5350;
 }
 
-.App-link {
-  color: #09d3ac;
+.navbar a {
+    color: #fff;
+}
+
+h4 {
+    text-transform: capitalize;
 }
